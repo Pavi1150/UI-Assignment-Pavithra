@@ -68,33 +68,33 @@ const Dashboard = () => {
         <div className='icons-section d-flex align-content-between flex-wrap'>
           <div>
             <div className='mt-2 d-flex justify-content-center'>
-              <TbLayoutDashboardFilled size="50" className='dashIcon' color='white'/>
+              <TbLayoutDashboardFilled size="50" className='dashIcon' color='white' />
             </div>
             <div className='mt-4 d-flex justify-content-center'>
-              <GoHomeFill className='icons-container'/>
+              <GoHomeFill className='icons-container' />
             </div>
             <div className='mt-4 d-flex justify-content-center'>
-              <MdOutlineInsertChart className='icons-container'/>
+              <MdOutlineInsertChart className='icons-container' />
             </div>
             <div className='mt-4 d-flex justify-content-center'>
-              <LuClipboardCheck className='icons-container'/>
+              <LuClipboardCheck className='icons-container' />
             </div>
             <div className='mt-4 d-flex justify-content-center'>
-              <TbDeviceIpadHorizontalSearch className='icons-container'/>
+              <TbDeviceIpadHorizontalSearch className='icons-container' />
             </div>
             <div className='mt-4 d-flex justify-content-center'>
-              <HiOutlineDocumentCheck className='icons-container'/>
+              <HiOutlineDocumentCheck className='icons-container' />
             </div>
-            
+
           </div>
           <div className='p-2 bottom-icon'>
-            <IoMdLogOut color='white' className='icons-container'/>
-            </div>
+            <IoMdLogOut color='white' className='icons-container' />
+          </div>
         </div>
         <div className='header-section'>
           <div className='d-flex justify-content-between p-lg-3 p-md-3 p-2 header-background position-relative'>
             <div>
-              <FiSearch className='search-icon mt-lg-1' color='white'/>
+              <FiSearch className='search-icon mt-lg-1' color='white' />
               <input placeholder='search' className='rounded py-lg-2 py-0 px-lg-3 px-2 search' />
             </div>
             <div className=''>
@@ -111,7 +111,7 @@ const Dashboard = () => {
                   <div className='col-12 col-lg-3 col-md-3'>
                     <div className='card-section shadow mb-lg-5 mb-md-5 mb-3 p-2 rounded'>
                       <div >
-                      <FaShoppingBasket color="#4060fd" size="50" className='rounded p-2' style={{backgroundColor:"#293369"}}/>
+                        <FaShoppingBasket color="#4060fd" size="50" className='rounded p-2' style={{ backgroundColor: "#293369" }} />
                       </div>
                       <p className='text-white fw-bold'>Total Orders</p>
                       <div className='mt-5 d-flex justify-content-between'>
@@ -122,7 +122,7 @@ const Dashboard = () => {
                   </div>
                   <div className='col-12 col-lg-3 col-md-3'>
                     <div className='card-section shadow mb-lg-5 mb-md-5 mb-3 p-2 rounded'>
-                      <GiShoppingBag color='#01c289' size="50"  className='rounded p-2' style={{backgroundColor:'#165246'}}/>
+                      <GiShoppingBag color='#01c289' size="50" className='rounded p-2' style={{ backgroundColor: '#165246' }} />
                       <p className='text-white fw-bold'>Total Delivered</p>
                       <div className='mt-5 d-flex justify-content-between'>
                         <h1 className='text-white fw-bold'>70</h1>
@@ -132,7 +132,7 @@ const Dashboard = () => {
                   </div>
                   <div className='col-12 col-lg-3 col-md-3'>
                     <div className='card-section shadow mb-lg-5 mb-md-5 mb-3 p-2 rounded'>
-                      <GiShoppingBag color='#f15d5d' size="50" className='rounded p-2' style={{backgroundColor:'#5f3237'}}/>
+                      <GiShoppingBag color='#f15d5d' size="50" className='rounded p-2' style={{ backgroundColor: '#5f3237' }} />
                       <p className='text-white fw-bold'>Total Cancelled</p>
                       <div className='mt-5 d-flex justify-content-between'>
                         <h1 className='text-white fw-bold'>05</h1>
@@ -142,7 +142,7 @@ const Dashboard = () => {
                   </div>
                   <div className='col-12 col-lg-3 col-md-3'>
                     <div className='card-section shadow mb-lg-5 mb-md-5 mb-3 p-2 rounded'>
-                      <FaCommentsDollar color='#e74aa4' size="50"  className='rounded p-2' style={{backgroundColor:'#5b2a4a'}}/>
+                      <FaCommentsDollar color='#e74aa4' size="50" className='rounded p-2' style={{ backgroundColor: '#5b2a4a' }} />
                       <p className='text-white fw-bold'>Total Revenue</p>
                       <div className='mt-5 d-flex justify-content-between'>
                         <h1 className='text-white fw-bold'>$2k</h1>
@@ -162,7 +162,7 @@ const Dashboard = () => {
                     </div>
                   </div>
                   <div className='mt-lg-4 mt-md-4 mt-4 ms-lg-2 ms-md-2 ms-4 circularProgress'>
-                  <CircularProgress/>
+                    <CircularProgress />
                   </div>
 
                 </div>
@@ -172,11 +172,11 @@ const Dashboard = () => {
               <div className='col-lg-8 col-md-12 col-12 mb-lg-0 mb-3'>
                 <div className='colorBackground rounded p-lg-3 p-md-3 p-2'>
                   <div className='d-flex justify-content-between'>
-                  <h3 className='fw-bold text-white'>Activity</h3>
-                  <select className='bg-secondary text-white filter'>
-                    <option>Weekly</option>
-                    <option>Monthly</option>
-                  </select>
+                    <h3 className='fw-bold text-white'>Activity</h3>
+                    <select className='bg-secondary text-white filter'>
+                      <option>Weekly</option>
+                      <option>Monthly</option>
+                    </select>
                   </div>
                   <BarChart data={data} />
                 </div>
@@ -186,31 +186,31 @@ const Dashboard = () => {
                   <div className="d-flex justify-content-between align-items-center" >
                     <div className='d-flex py-lg-3 py-md-3 py-1'>
                       <div className='rounded-circle goal p-3'>
-                        <LuGoal color='#c75727' className='contents'/></div>
+                        <LuGoal color='#c75727' className='contents' /></div>
                       <h5 className='text-white d-flex align-items-center ms-3'>Goals</h5>
                     </div>
                     <div className='bg-secondary rounded-circle p-2' >
-                    <img src={right} width="20px" height="20px"/>
+                      <img src={right} width="20px" height="20px" />
                     </div>
                   </div>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className='d-flex py-3'>
                       <div className='rounded-circle dish p-3'>
-                        <TbBurger color='#546cc2' className='contents'/></div>
+                        <TbBurger color='#546cc2' className='contents' /></div>
                       <h5 className='text-white d-flex align-items-center ms-3'>Popular Dishes</h5>
                     </div>
                     <div className='bg-secondary rounded-circle p-2' >
-                    <img src={right} width="20px" height="20px"/>
+                      <img src={right} width="20px" height="20px" />
                     </div>
                   </div>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className='d-flex py-3'>
                       <div className='rounded-circle menu p-3'>
-                        <BiDish color='#238cbc' className='contents'/></div>
+                        <BiDish color='#238cbc' className='contents' /></div>
                       <h5 className='text-white d-flex align-items-center ms-3'>Menu</h5>
                     </div>
                     <div className='bg-secondary rounded-circle p-2' >
-                    <img src={right} width="20px" height="20px"/>
+                      <img src={right} width="20px" height="20px" />
                     </div>
                   </div>
                 </div>
@@ -222,26 +222,26 @@ const Dashboard = () => {
                 <div className='colorBackground shadow p-lg-5 p-2 mb-5 rounded'>
                   <h4 className='fw-bold text-white'>Recent Orders</h4>
                   <div className='table-responsive'>
-                  <table className='table table-dark colorBackground'>
-                    <thead>
-                      <th>Customer</th>
-                      <th>Order No.</th>
-                      <th>Amount</th>
-                      <th>Status</th>
-                    </thead>
-                    {tableData.map((x, index) => (
-                      <tbody className='colorBackground p-lg-5'>
+                    <table className='table table-dark colorBackground'>
+                      <thead>
+                        <th>Customer</th>
+                        <th>Order No.</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                      </thead>
+                      {tableData.map((x, index) => (
+                        <tbody className='colorBackground p-lg-5'>
 
-                        <tr key={index}>
-                          <td><CgProfile size="30px" color='white' className='me-2'/>{x.customer}</td>
-                          <td>{x.orderNo}</td>
-                          <td>{x.amount}</td>
-                          <td><span className={x?.status=="Delivered" ? "delivered":"cancelled"}>{x.status}</span></td>
-                        </tr>
-                      </tbody>
+                          <tr key={index}>
+                            <td><CgProfile size="30px" color='white' className='me-2' />{x.customer}</td>
+                            <td>{x.orderNo}</td>
+                            <td>{x.amount}</td>
+                            <td><span className={x?.status == "Delivered" ? "delivered" : "cancelled"}>{x.status}</span></td>
+                          </tr>
+                        </tbody>
 
-                    ))}
-                  </table>
+                      ))}
+                    </table>
                   </div>
                 </div>
               </div>
@@ -250,7 +250,7 @@ const Dashboard = () => {
                   <h4 className='fw-bold text-white mb-4'>Customerr Feedback</h4>
                   <div>
                     <div className='d-flex mb-2'>
-                      <CgProfile size="40px" color='white'/>
+                      <CgProfile size="40px" color='white' />
                       <h5 className='fw-bold text-white ms-2 mt-1'>Jenny Wilson</h5>
                     </div>
                     <div className='mb-2'>
@@ -270,7 +270,7 @@ const Dashboard = () => {
 
                   <div>
                     <div className='d-flex mb-2'>
-                      <CgProfile size="40px" color='white'/>
+                      <CgProfile size="40px" color='white' />
                       <h5 className='fw-bold text-white ms-2 mt-1'>Jenny Wilson</h5>
                     </div>
                     <div className='mb-2'>
@@ -290,7 +290,7 @@ const Dashboard = () => {
 
                   <div>
                     <div className='d-flex mb-2'>
-                      <CgProfile size="40px" color='white'/>
+                      <CgProfile size="40px" color='white' />
                       <h5 className='fw-bold text-white ms-2 mt-1'>Jenny Wilson</h5>
                     </div>
                     <div className='mb-2'>

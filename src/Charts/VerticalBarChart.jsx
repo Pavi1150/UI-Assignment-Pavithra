@@ -21,45 +21,44 @@ ChartJS.register(
   Legend
 );
 
-function BarChart({ data = { labels: [], datasets: [] } , height = 110 }) {
+function BarChart({ data = { labels: [], datasets: [] }, height = 110 }) {
   const options = {
     responsive: true,
     plugins: {
       legend: {
         position: "top",
         labels: {
-          color: "white" // Set legend labels color to white
+          color: "white"
         }
 
       },
       title: {
         display: true,
-        // text: "Chart.js Bar Chart",
       },
     },
     scales: {
       x: {
         grid: {
-          display: true, // Display vertical grid lines
-          color: "rgba(0, 0, 0, 0.1)" // Color for vertical grid lines
+          display: true,
+          color: "rgba(0, 0, 0, 0.1)"
         },
         ticks: {
-          color: "white" // Set x-axis labels color to white
+          color: "white"
         }
       },
       y: {
         grid: {
-          display: true, // Display horizontal grid lines
-          color: "rgba(0, 0, 0, 0.1)" // Color for horizontal grid lines
+          display: true,
+          color: "rgba(0, 0, 0, 0.1)"
         },
         ticks: {
-          color: "white" // Set y-axis labels color to white
+          color: "white"
         }
       }
     }
   };
 
-  return <Bar options={options} data={data} height={height}/>;
+  return <Bar options={options} data={data} height={height} />;
 }
 
 export default BarChart;
